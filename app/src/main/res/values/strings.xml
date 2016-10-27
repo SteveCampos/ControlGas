@@ -1,17 +1,26 @@
 <resources>
     <string name="app_name">Gas Control Trade</string>
     <string name="app_email">agaitan@gctperu.pe</string>
+    <string name="user_email">Usuario: %s</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Configuraciones</string>
+
+    <string name="action_play">Iniciando …</string>
+    <string name="action_stop">Deteniendo …</string>
+    <string name="action_searching">Buscando …</string>
+    <string name="action_getting_last">Obteniendo Último …</string>
+
+
     <string name="action_progam">Programar</string>
     <string name="action_get_last">Obtener Último</string>
     <string name="action_get_plate">Obtener Placa</string>
     <string name="action_select_device">Seleccionar Dispositivo</string>
     <string name="action_go">IR</string>
+    <string name="action_select">SELECCIONAR</string>
 
     <string name="nav_main">Principal</string>
     <string name="nav_search">Buscar Despachos</string>
@@ -22,13 +31,54 @@
     <string name="action_programming">Programando %1$.1f …</string>
 
     <string name="state_programmed">PROGRAMADO</string>
+    <string name="state_no_programmed">NO PROGRAMADO</string>
+    <string name="state_no_selected">No Seleccionado</string>
+    <string name="state_stopped">DETENIDO</string>
+    <string name="state_received">TRAMA RECIBIDA</string>
+
 
     <string name="error">Error: %s</string>
-    <string name="mdi_programm_sucess">Programado %.1f OK.</string>
+    <string name="mdi_programm_sucess">Programado %s OK.</string>
     <string name="mdi_init_success">Válvula Abierta</string>
     <string name="mdi_stop_sucess">Válvula Cerrada</string>
+
+
+    <string name="dialog_title_program">Programar Despacho</string>
+    <string name="hint_input_quantity">Introducir Cantidad</string>
+    <string name="hint_input_prefill">10.0</string>
+
+
+    <string name="dialog_title_dispatch">Despacho</string>
+    <string name="dialog_content_dispatch">
+        Acumulado Anterior: %1$s\n
+        Acumulado Actual: %2$s\n
+        Galones: %3$s\n
+        Kilos: %4$s\n
+        Densidad: %5$s\n
+        Temperatura: %6$s\n
+        Inicio: %7$s\n
+        Final: %8$s\n
+        Placa: %9$s\n
+        Usuario: %10$s
+    </string>
+
+
+    <string name="button_ok">OK</string>
+    <string name="title_activity_search">Buscar Despachos</string>
+
+    <!--SEARCH ACTIVITY-->
+
+    <string name="dialog_title_search">Buscar Despacho por Placa</string>
+    <string name="hint_input_placa">Introducir Placa</string>
+    <string name="hint_input_prefill_placa"></string>
+
+
+
+    <string name="message_not_permission">No tiene permiso para esta placa o No existe.</string>
+
 
 
 
 
 </resources>
+

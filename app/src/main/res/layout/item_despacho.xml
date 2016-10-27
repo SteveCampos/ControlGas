@@ -5,9 +5,6 @@
     android:id="@+id/cv_container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="@dimen/activity_horizontal_margin"
-    android:layout_marginRight="@dimen/activity_horizontal_margin"
-    android:layout_marginTop="@dimen/activity_horizontal_margin"
     android:foreground="?android:attr/selectableItemBackground"
     card_view:cardBackgroundColor="#ffffff"
     card_view:cardPreventCornerOverlap="false"
@@ -15,24 +12,39 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        >
 
         <TextView
+            android:id="@+id/text_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toLeftOf="@+id/text_galones"
             android:layout_toStartOf="@+id/text_galones"
-            android:gravity="top|start"
-            android:text="Martes 25, de Octubre 14:20" />
+            android:gravity="center_vertical"
+            android:text="Martes 25, de Octubre 14:20"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+            />
+
+        <TextView
+            android:id="@+id/text_placa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AKE-J78"
+            android:layout_below="@+id/text_date"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            />
 
         <TextView
             android:id="@+id/text_galones"
-            style="@style/TextAppearance.AppCompat.Display1"
+            style="@style/TextAppearance.AppCompat.Headline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
+            android:layout_margin="4dp"
             android:text="10.0" />
 
     </RelativeLayout>

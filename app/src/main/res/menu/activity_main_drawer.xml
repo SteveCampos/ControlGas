@@ -12,18 +12,14 @@
             android:title="@string/nav_search" />
     </group>
 
-    <!--
-    <item android:title="Communicate">
+
+    <item android:title="Sesion">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_singout"
+                android:icon="@drawable/ic_close"
+                android:title="Cerrar Sesión" />
         </menu>
-    </item>-->
+    </item>
 
 </menu>
